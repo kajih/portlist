@@ -2,6 +2,7 @@ use netstat2::{
     get_sockets_info, AddressFamilyFlags, ProtocolFlags, ProtocolSocketInfo::Tcp,
     ProtocolSocketInfo::Udp,
 };
+
 use std::env;
 
 fn main() -> Result<(), Box<dyn std::error::Error>> {
